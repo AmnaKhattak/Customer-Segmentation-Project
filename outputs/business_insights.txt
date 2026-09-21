@@ -1,0 +1,45 @@
+
+Cluster 0
+Segment: Low Income + Low Spending
+Customer Count: 20
+Average Age: 46.25
+Average Income: 26.75
+Average Spending Score: 18.35
+Recommendation: Use low-cost marketing strategies and basic promotional offers.
+------------------------------------------------------------
+
+Cluster 1
+Segment: Low Income + High Spending
+Customer Count: 54
+Average Age: 25.19
+Average Income: 41.09
+Average Spending Score: 62.24
+Recommendation: Offer affordable products, bundles and frequent promotional campaigns.
+------------------------------------------------------------
+
+Cluster 2
+Segment: High Income + High Spending
+Customer Count: 40
+Average Age: 32.88
+Average Income: 86.1
+Average Spending Score: 81.53
+Recommendation: Target with premium products, exclusive offers and loyalty programs.
+------------------------------------------------------------
+
+Cluster 3
+Segment: High Income + Low Spending
+Customer Count: 39
+Average Age: 39.87
+Average Income: 86.1
+Average Spending Score: 19.36
+Recommendation: Use personalized promotions, discounts and product recommendations to increase spending.
+------------------------------------------------------------
+
+Cluster 4
+Segment: Low Income + High Spending
+Customer Count: 47
+Average Age: 55.64
+Average Income: 54.38
+Average Spending Score: 48.85
+Recommendation: Offer affordable products, bundles and frequent promotional campaigns.
+------------------------------------------------------------
