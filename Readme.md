@@ -1,0 +1,116 @@
+import pypandoc
+
+readme = r"""# Customer Segmentation using K Means and PCA
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![Scikit Learn](https://img.shields.io/badge/Scikit%20Learn-Machine%20Learning-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![PCA](https://img.shields.io/badge/PCA-Dimensionality%20Reduction-purple)
+![K Means](https://img.shields.io/badge/K%20Means-Clustering-red)
+
+## Project Overview
+
+This project performs customer segmentation using K Means clustering and PCA.
+
+The goal is to divide customers into meaningful groups based on their age, annual income, and spending score. These groups can help a business understand customer behavior and create more targeted marketing strategies.
+
+## Author
+
+**Amna Irshad**
+
+Computer Science Student
+
+## Dataset
+
+The project uses the Mall Customers dataset.
+
+Dataset size:
+
+• 200 customers  
+• 5 columns
+
+Main columns:
+
+• Customer ID  
+• Gender  
+• Age  
+• Annual Income  
+• Spending Score
+
+## Features Used
+
+Three features were selected for clustering:
+
+1. Age
+2. Annual Income
+3. Spending Score
+
+Customer ID and Gender were not used for clustering because they do not directly represent the customer spending pattern used in this project.
+
+## Project Workflow
+
+The project follows these steps:
+
+1. Load the dataset
+2. Understand the data
+3. Check data types
+4. Check missing values
+5. Select useful features
+6. Standardize the features
+7. Find a suitable number of clusters using the Elbow Method
+8. Apply K Means clustering
+9. Analyze the customer clusters
+10. Apply PCA for 2D visualization
+11. Create visualizations
+12. Generate business insights
+
+## Machine Learning Method
+
+### K Means Clustering
+
+K Means groups customers into similar clusters.
+
+For this project, the Elbow Method was used to select:
+
+**K = 5**
+
+Therefore, the customers were divided into five groups.
+
+### PCA
+
+PCA was used to reduce the three selected features into two principal components.
+
+The first two components explain approximately:
+
+**77.57% of the total variance**
+
+This makes it easier to visualize the five customer groups in a 2D graph.
+
+## Cluster Insights
+
+The project identifies groups such as:
+
+• Low Income and Low Spending  
+• Low Income and High Spending  
+• High Income and High Spending  
+• High Income and Low Spending  
+• Medium Income and Medium Spending
+
+Each cluster has different customer characteristics, which can support targeted marketing decisions.
+
+## Project Structure
+
+```text
+Customer Segmentation Project
+│
+├── data
+│   └── customer dataset
+│
+├── src
+│   └── main.py
+│
+├── outputs
+│   └── generated charts, summaries and reports
+│
+└── README.md
